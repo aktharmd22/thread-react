@@ -1,0 +1,9 @@
+.home-container{
+    display: flex;
+}
+
+.home-content-section{
+    display: flex;
+    padding: 20px;
+    width: 100%;
+}

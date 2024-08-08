@@ -1,0 +1,37 @@
+.delete-popup{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);;
+    height:120vh;
+    width: 100%;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.popup-delete-container{
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    height: 120px;
+    width: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.popup-delete-button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.popup-delete-button{
+    width: 100px;
+    height: 34px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(206, 201, 182);
+    margin: 10px;
+    font-weight: bold;
+}

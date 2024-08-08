@@ -1,0 +1,108 @@
+.pending-data-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.pending-list-container{
+   
+    display: flex;
+}
+.pending-list-item-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+    
+}
+.pending-list-item{
+    margin: 5px;
+}
+.pending-select-input{
+    width: 150px;
+    height: 32px;
+    cursor: pointer;
+}
+.pending-option{
+    height: 30px;
+    font-size: 17px;
+}
+.pending-list-item-heading{
+    font-weight: 600;
+    margin: 5px;
+}
+.pending-total-list{
+    background-color: rgb(204, 228, 228);
+    padding: 10px;
+    border-radius: 10px;   
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.issue-note-headings{
+    display: flex;
+    width: 100%;
+}
+.issue-note-headings-items{
+    flex-grow: 1;
+    width: 20%;
+    font-weight: 600;
+}
+.text{
+    min-width: 250px;
+    word-wrap: break-word;
+    margin-right: 20px;
+}
+.no{
+    width: 100px;
+}
+.issue-note-items-elements{
+    flex-grow: 1;
+    width: 20%;
+}
+
+.issue-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.note-headings{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.issueUpdateSection{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: center;
+}
+.issueUpdateInput{
+    width: 70%;
+    outline: none;
+    margin-right: 15px;
+    font-size: 17px;
+}
+.issueUpdateButton{
+    height: 30px;
+    width: 100px;
+    margin-left: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    background-color: burlywood;
+}
+.issue-text{
+    word-wrap: break-word;
+    width: 200px;
+}
+.pending{
+    background-color: red;
+}
+.closed{
+    background-color: green;
+}

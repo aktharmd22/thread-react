@@ -1,0 +1,81 @@
+.nav{
+    padding: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#e6f1f5;
+}
+
+.logo{
+    width: 180px;
+}
+
+.profile-letter-container{
+    background-color: rgb(4, 84, 110);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+    border-radius: 40px;
+    margin: 5px 10px 0px 0px;
+}
+.profile-letter{
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 17px;
+    color: black;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.popup{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: fit-content;
+    position: absolute;
+    top:60px;
+    right:5px;
+    background-color: #ffffff;
+}
+.popup-button-container{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.logout-name{
+    margin: 0px;
+}
+.edit-button{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    height: 24px;
+    min-width: 60px;
+    border-radius:7px ;
+    margin: 3px 4px;
+    cursor: pointer;
+    outline: none;
+}
+.name-container{
+    display: flex;
+    align-items: center;
+}
+.popup-diplay{
+    display: none;
+}
+.bell-icon{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.end-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 120px;
+}
+.profile-letter{
+    color: aqua;
+}

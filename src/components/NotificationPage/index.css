@@ -1,0 +1,49 @@
+.notificatoin-cpage-container{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.notification-two-container{
+    display: flex;
+}
+.total-notification-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 19px;
+}
+.notification-item-container{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    background-color: rgb(222, 224, 169);
+    margin: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+}
+.notification-item-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    margin: 10px 5px;
+    
+}
+.notification-item-heading{
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0px;
+
+}
+.notification-item{
+    font-size: 17px;
+    margin: 0px;
+    margin-top: 10px;
+}
+.notification-heading{
+    margin: 10px;
+    font-size: 30px;
+    color: rgb(66, 67, 70);
+    font-family: cursive;
+}

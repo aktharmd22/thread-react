@@ -1,0 +1,93 @@
+.renewal-list {
+    background-color: rgb(225, 228, 213);
+    margin: 10px;
+    border-radius: 10px 0px;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+
+}
+
+.renewal-list-1 {
+    display: flex;
+    
+}
+.renewal-list-item-1{
+    font-weight: 500;
+    margin: 10px;
+    font-size: 17px;
+}
+
+.renewal-list-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.renewal-list-item{
+    font-size: 17px;
+}
+.renewal-history-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 14px;
+}
+.renewal-history-heading-section{
+    display: flex;
+    
+}
+.renewal-history-heading{
+    width: 200px;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+}
+.renewal-history-element-section{
+    display: flex;
+}
+.renewal-history-element{
+    width: 200px;
+    text-align: center;
+}
+.renewal-add-container{
+    margin-top: 8vh ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.renewal-date-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.renewal-date-container label{
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.renewal-date-container input{
+    width: 150px;
+    height: 34px;
+    font-size: 17px;
+    margin: 10px;
+    cursor: pointer;
+}
+.renewal-add-container button{
+    width:120px ;
+    height: 32px;
+    margin: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    border: none;
+    background-color: darkgray;
+    cursor: pointer;
+}
+.setDate{
+    display: flex;
+    
+}

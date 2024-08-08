@@ -1,0 +1,95 @@
+.add-customer-container{
+    display: flex;
+   justify-content: center;
+   flex-direction: column;
+    width: 100%;
+    align-items: center;
+    
+}
+.form-details-sections{
+    display: flex;
+    align-items: center;
+}
+.add-customer-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aquamarine;
+    border-radius: 12px;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 700px;
+    margin: 20px 0px;
+}
+.add-customer-form-item-container{
+    display: flex;
+    align-items: center;
+    width: 620px;
+}
+.add-customer-form-items{
+    width: 50%;
+    align-items: flex-start;
+    font-size: 17px;
+}
+.he{
+    font-weight: bold;
+}
+.label{
+    margin: 16px 0px;
+    font-weight: bold;
+}
+.add-customer-select{
+    width: 190px;
+    height: 36px;
+    font-size: 16px;
+    cursor: pointer;
+   
+}
+.service-add-button{
+ margin-left: 10px;
+ border-radius: 5px;
+ cursor: pointer;
+ outline: none;
+}
+.add-customer-form-date{
+    width: 150px;
+    height: 34px;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 0px 4px;
+}
+
+.add-customer-purchase-value{
+height: 34px;
+width: 150px;
+}
+.add-customer-submit{
+    margin: 30px 0px 20px 0px;
+    width: 130px;
+    height: 34px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(171, 134, 86);
+    font-weight: 600;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.service-input{
+    width: 200px;
+    height: 30px;
+    margin: 0px 10px;
+    border-radius: 5px;
+    padding: 3px 6px ;
+}
+.popup-add-service-button{
+    height: 34px;
+    width: 110px;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+.customer-name{
+    color:rgb(143, 167, 68);
+}

@@ -1,0 +1,188 @@
+.expiry-container {
+  width: 100%;
+  padding: 10px;
+}
+
+.total-date-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.date-label {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: monospace;
+}
+
+.expiry-date-input {
+  height: 34px;
+  width: 200px;
+  font-size: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.expiry-button-container {
+  text-align: center;
+  margin: 25px 0px;
+}
+
+.expiry-button {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 600;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.expiry-button:hover {
+  background-color: #23c483;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.expiry-button:active {
+  transform: translateY(-1px);
+}
+
+.expiry-card {
+  background-color: #c4dbd2;
+  margin: 10px;
+  padding: 10px;
+  width: 27%;
+  border-radius: 10px;
+}
+
+.expriy-list-container {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.expiry-item-container {
+  display: flex;
+}
+
+.expiry-item {
+  flex-grow: 1;
+  width: 50%;
+  font-size: 17px;
+  color: black;
+}
+
+.expiry-item-heading {
+  flex-grow: 1;
+  width: 50%;
+  font-weight: 600;
+  font-size: 17px;
+  color: black;
+}
+
+.expiryDate {
+  position: relative;
+  background-color: #23c483;
+  color: rgb(255, 255, 255);
+  margin-bottom: -20px;
+  width: fit-content;
+  font-weight: 600;
+  border-radius: 5px;
+  text-align: end;
+  padding: 5px;
+
+}
+
+.category-selection {
+  width: 140px;
+  height: 35px;
+  font-size: 17px;
+  margin: 10px 10px 20px;
+}
+.total-date-container{
+  margin-top:10%;
+}
+.expiry-chart-list-heading-container{
+  display: flex;
+  text-decoration: none;
+}
+.expiry-chart-list-heading-container p{
+  font-size: 15px;
+  font-weight: 600;
+  width: 30%;
+  flex-grow: 1;
+  color: black;
+  text-decoration: none;
+  margin: 15px;
+}
+.chart-expiry-container{
+  width: 33%;
+  margin: 10px;
+}
+.chart-container{
+  display: flex;
+  align-items: center;
+}
+.expirylist-conatiner{
+  background-color: #c4dbd2;
+  height: 300px;
+  overflow-y: auto;
+}
+.chart-list-items{
+  text-decoration: none;
+}
+.ooo{
+  background-color: beige;
+  margin: 5px;
+  border-radius: 10px;
+
+}
+.expirylist-conatiner {
+  padding: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  border-radius: 10px;
+  
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:#51629c; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}
+.d p{
+  font-weight: bold;
+}
+.ooo:hover {
+  background-color: darkkhaki;
+  transition: all 0.3s ease 0s;
+  box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+}

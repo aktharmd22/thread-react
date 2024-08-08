@@ -1,0 +1,163 @@
+
+.customer-content-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.customer-information-section{
+    background-color: aquamarine;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 1px solid;
+    max-height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.customer-information-heading{
+    margin-top: -30px;
+    background-color: aliceblue;
+    width: fit-content;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px 8px;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.multitask-panel{
+    width: 100%;
+    margin-top: 10px;
+}
+.multitask-button-container{
+    display: flex;
+    background-color: rgb(219, 219, 177);
+    width: 100%;
+    padding: 5px 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.multitask-button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    font-weight: 600;
+    font-size: 17px;
+    font-family: Comic Sans MS, Comic Sans, cursives;
+}
+.multitask-button:hover{
+    color: blueviolet;
+}
+.serviceList-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.service-list{
+    background-color: rgb(221, 188, 145);
+    padding: 10px;
+    margin: 10px;
+    width: 350px;
+    border-radius: 10px;
+    height: 210px;
+    position: relative;
+}
+.remaining-days{
+    position: absolute;
+    top: -10px;
+    left: 210px;
+    background-color: rgb(31, 129, 52);
+    color: white;
+    margin: 0px;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.expired{
+    position: absolute;
+    top: -10px;
+    left: 270px;
+    background-color: rgb(200, 11, 11);
+    color: white;
+    margin: 0px;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+.note-panel{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.add-service-button{
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.add-service-button-icon{
+    font-size: 22px;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+.add-service-button:hover{
+    color: blue;
+}
+.updation-container{
+    display: none;
+    margin-top: 20px;
+   
+}
+.service-list:hover .updation-container{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+.updation-container-button{
+    margin: 0px 2.5px;
+    height: 28px;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-bottom: 5px;
+
+}
+.total-cont{
+    min-height: 100vh;
+}
+.customer-information-update-section{
+    align-self: flex-end;
+    margin: 20px 0px -40px 0px;
+
+}
+.customer-information-update-button{
+    margin: 0px 5px;
+    width: 80px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    height: 30px;
+}
+.create-ticket-button{
+    position: fixed;
+    right: 20px;
+    width: 120px;
+    top: 40vh;
+    background-color: darkkhaki;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 600;
+    color: rgb(57, 44, 29);
+}
+.actived-button{
+    color: blueviolet;
+}

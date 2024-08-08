@@ -1,0 +1,239 @@
+.customer-details-column {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    overflow-x: scroll;
+
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.customer-content-container {
+    max-width: 1280px;
+    margin-left: 10px;
+}
+
+.service-card {
+    background-color: darkkhaki;
+    margin: 10px;
+    height: 70vh;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    min-width: 400px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-heading {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 15px 0px;
+}
+
+.customer-preview-container-list {
+    display: flex;
+}
+
+.customer-preview-container-item-1 {
+    width: 150px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+.customer-preview-container-item-2 {
+    margin: 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.customer-preview-container {
+    background-color: chocolate;
+    margin: 10px;
+    border: 1px solid;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.customer-section-search {
+    width: 90%;
+    outline: none;
+    height: 34px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 8px;
+    margin-bottom: 10px;
+}
+
+.popup-container {
+    position: fixed;
+
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.popup-close-button {
+    align-self: flex-start;
+    margin-top: 10px;
+    background-color: transparent;
+    font-size: 25px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.popup-inside-container {
+    display: flex;
+    padding: 10px;
+    background-color: beige;
+    width: 90%;
+    overflow-y: auto;
+    height: 650px;
+}
+
+.popup-ul {
+    width: 50%;
+}
+
+.popup-li {
+    margin: 15px 0px;
+    display: flex;
+}
+
+.popup-key {
+    margin: 0;
+    font-weight: bold;
+    font-size: 17px;
+    width: 150px;
+    margin-right: 15px;
+}
+
+.popup-value {
+    margin: 0;
+}
+
+.notes-panel {
+    background-color: rgb(60, 95, 95);
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.note-heading {
+    text-align: center;
+    color: aqua;
+}
+
+.each-note-list {
+    background-color: rgb(92, 122, 148);
+    margin: 10px;
+    color: aliceblue;
+    border-radius: 5px;
+    display: flex;
+    padding: 5px;
+    flex-direction: column;
+
+}
+
+.each-note {
+    margin: 0px;
+    margin-bottom: 5px;
+    width: 100%;
+    word-wrap: break-word; /* Break long words */
+}
+
+.each-note-time {
+    margin: 0px;
+    font-size: 12px;
+    align-self: flex-end;
+    color: rgb(220, 229, 229);
+}
+
+.notes-Date {
+    background-color: rgb(41, 35, 35);
+    color: aqua;
+    align-self: center;
+    padding: 5px ;
+    border-radius: 5px;
+    font-size: 13px;
+    align-items: center;
+    
+}
+
+.notes-item-list-container {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    height: 400px;
+    scrollbar-width: thin;
+}
+
+.note-add-box {
+    width: 95%;
+    margin: 10px;
+    height: 90px;
+    font-size: 15px;
+    outline: none;
+    padding: 5px;
+}
+
+.note-add-button {
+    background-color: rgb(128, 135, 121);
+    color: aliceblue;
+    border: none;
+    height: 30px;
+    width: 70px;
+    border-radius: 10px;
+    align-self: flex-end;
+    margin: 5px 10px 10px 0px;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.note-add-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.note-delete-button{
+    align-self: flex-end;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 20px;
+    color:rgb(175, 215, 215);
+    padding: 0px;
+    margin:8px 6px 0px 0px;
+}
+
+.each-note-time-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.customer-preview-container-item-1{
+    color: black;
+}
+.customer-preview-container-item-2{
+    color: black;
+}
